@@ -16,6 +16,7 @@ def remove_smallest() -> None:
             if a[i + 1] - a[i] > 1:
                 possible = False
                 break
+            
         if possible:
             print("Yes")
         else:
