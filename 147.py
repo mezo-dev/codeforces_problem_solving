@@ -11,6 +11,7 @@ def solve():
 
         if k in n_arr:
             print("Yes")
+            break
         else: 
             print('No')
 
