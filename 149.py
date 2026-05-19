@@ -8,6 +8,7 @@ def two_integer_problem():
         a, b = map(int, input().split())
 
         distance = abs(a - b)
+
         total_moves = (distance + 9) // 10
 
         print(total_moves) 
