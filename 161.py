@@ -1,12 +1,13 @@
 
+power = 2
 
+x =int(input())
+answer = 0
 
+while x > 0:
+    largest = 1 << (x.bit_length() - 1)
+    x = x - largest
+    answer += 1
 
-x = int(input())
+print(answer)
 
-counter = 0
-
-for y in bin(x):
-    if y == "1":
-        counter+=1
-print(counter)
