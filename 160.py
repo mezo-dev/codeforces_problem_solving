@@ -16,14 +16,15 @@ def max_profit_from_project():
 
     selected_projects = []
     total_profit = 0
+    count_of_projects = 0
 
     for name, time, profit in projects:
         if time <= hours:
             selected_projects.append(name)
             hours -= time
             total_profit += profit
-    return selected_projects, total_profit
-
+            count_of_projects += 1
+    return selected_projects, total_profit, count_of_projects
 
 print(max_profit_from_project())
 
