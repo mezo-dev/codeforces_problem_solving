@@ -12,5 +12,4 @@ def find_min():
         print(b-a)
 
 
-
 find_min()
