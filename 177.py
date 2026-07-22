@@ -1,5 +1,5 @@
 
-
+# A composite number is a number that has two smaller numbers inside it. When we multiply them, we get the original number.
 
 
 def is_composite(num: int) -> bool:
