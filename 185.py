@@ -10,5 +10,4 @@ def find_word_in_sentance(sentance: str, word: str):
     return False
 
 
-
 print(find_word_in_sentance("i love python so much", "so"))
