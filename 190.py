@@ -5,7 +5,7 @@ class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
 
         compined_list = nums1[:m] + nums2[:n]
-        nums1[:] = self.quick_sort(compined_list)
+        nums1[:] = self.quick_sort(compined_list) # refill it instead of creating one
 
 
     def quick_sort(self, arr: List) -> List[int]:
