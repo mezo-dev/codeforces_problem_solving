@@ -5,7 +5,7 @@
 
 
 
-def collect_you_name():
+def collect_your_name():
     q = int(input())
 
     for _ in range(q):
